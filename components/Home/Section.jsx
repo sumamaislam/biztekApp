@@ -21,7 +21,7 @@ export default function Section() {
           </p>
           <hr className="mt-[30px]" />
           <div>
-            <div className="flex md:divide-x flex-col md:flex-row ">
+            <div className="flex md:divide-x flex-col md:flex-row  ">
               <div>
                 <div className="mt-[30px] flex justify-center md:justify-start">
                   <img src="/section/num_years.svg" alt="" />
@@ -36,11 +36,9 @@ export default function Section() {
                 </p>
               </div>
 
-              <div className="mt-[30px] text-[16px] md:text-justify md:pl-[30px]">
+              <div className="mt-[30px] text-[16px] md:text-justify md:pl-[10px]">
                 <p className="">
-                  {" "}
                   <b>
-                    {" "}
                     We offer everything you need for web app development and
                     ongoing support, including: custom development, performance
                     optimization, cloud-based deployment, API development and
@@ -50,23 +48,79 @@ export default function Section() {
                 </p>
 
                 <div className="text-[14px]">
-                  <p className="pt-[10px]">
-                    <strong>-</strong> We produce well-designed, engaging, and
-                    secure custom web apps
+                  <p className="pt-[10px] flex items-center gap-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="w-4 h-4 text-orange-500  "
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      />
+                    </svg>
+                    We produce well-designed, engaging, and secure custom web
+                    apps
                   </p>
-                  <p className="pt-[10px]">
-                    <strong>-</strong> Our web applications are designed to
-                    scale with your organization
+                  <p className="pt-[10px] flex items-center gap-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="w-4 h-4 text-orange-500  "
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      />
+                    </svg>{" "}
+                    Our web applications are designed to scale with your
+                    organization
                   </p>
-                  <p className="pt-[10px]">
-                    <strong>-</strong> We understand that the interconnectedness
-                    of web apps can be a double-edged sword so we scrutinize our
-                    web apps for security
+                  <p className="pt-[10px] flex  gap-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="w-5 h-5 text-orange-500  "
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      />
+                    </svg>{" "}
+                    We understand that the interconnectedness of web apps can be
+                    a double-edged sword so we scrutinize our web apps for
+                    security
                   </p>
-                  <p className="pt-[10px]">
-                    <strong>-</strong> We work on cutting-edge technology and
-                    enterprise solutions for solving real-world problems and
-                    help businesses become bigger & better.
+                  <p className="pt-[10px] flex  gap-2 align">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="w-5 h-5 text-orange-500  "
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      />
+                    </svg>{" "}
+                    We work on cutting-edge technology and enterprise solutions
+                    for solving real-world problems and help businesses become
+                    bigger & better.
                   </p>
                 </div>
               </div>
